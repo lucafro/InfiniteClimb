@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 1385745689774668432}
   - component: {fileID: 6272535143210111106}
   - component: {fileID: 2584013674165095368}
-  - component: {fileID: 598267045283017966}
+  - component: {fileID: 1632357631497221765}
   m_Layer: 0
   m_Name: Handle (Climbable)
   m_TagString: Untagged
@@ -696,8 +696,9 @@ AudioSource:
   m_GameObject: {fileID: 6895505816110581931}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e97271b6c7c00314fa97acc7cd5bd5ce, type: 3}
+  OutputAudioMixerGroup: {fileID: -6344887744396583006, guid: 3bbd231560064ae4796e648ce7af10cc,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 17b1028d2cff8044cb0f0a149e2dd796, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -743,7 +744,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -783,7 +784,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &598267045283017966
+--- !u!114 &1632357631497221765
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
