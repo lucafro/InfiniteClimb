@@ -10,6 +10,12 @@ public class PlatformManager : MonoBehaviour
 
     private void Awake()
     {
+        SetPlatform();
+    }
+
+    [MyBox.ButtonMethod]
+    public void SetPlatform()
+    {
         if (XrRig != null && NonVrPlayer != null)
         {
             if (_VR)
