@@ -47,8 +47,8 @@ MonoBehaviour:
       animationStateStartValue: 0
       animationStateEndValue: 0
     - stateName: idle
-      animationStateStartValue: 0
-      animationStateEndValue: 0
+      animationStateStartValue: 1
+      animationStateEndValue: 1
     - stateName: hovered
       animationStateStartValue: 1.15
       animationStateEndValue: 1.25
@@ -59,8 +59,8 @@ MonoBehaviour:
       animationStateStartValue: 1.25
       animationStateEndValue: 1.4
     - stateName: activated
-      animationStateStartValue: 0
-      animationStateEndValue: 0
+      animationStateStartValue: 1
+      animationStateEndValue: 1
     - stateName: focused
       animationStateStartValue: 0
       animationStateEndValue: 0
