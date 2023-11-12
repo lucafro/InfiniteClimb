@@ -55,7 +55,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3, y: 0.25, z: 2}
+  m_Size: {x: 3, y: 0.5, z: 2}
   m_Center: {x: 0, y: 0, z: 0.5}
 --- !u!54 &2211873527934466658
 Rigidbody:
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   planeHeight: 0
-  spawnWidth: 2
+  spawnWidth: 1.3
   spawnHeight: 0.25
   planeAxis: 1
   TransformCreated:

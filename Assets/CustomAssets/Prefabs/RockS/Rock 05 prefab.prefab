@@ -148,6 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f29c46de6a6a6e478d55d38c06e40a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _fadeInSpeed: 0.7
 --- !u!114 &3976132976565664806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,7 +179,7 @@ MonoBehaviour:
       - m_Target: {fileID: 6203373500332217724}
         m_TargetAssemblyTypeName: SetDissolveValue, CustomAssets
         m_MethodName: FadeIn
-        m_Mode: 4
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

@@ -5,7 +5,8 @@ using UnityEngine;
 public class SetDissolveValue : MonoBehaviour
 {
     private List<Material> _materials = new();
-    //[SerializeField] bool _fadeOnStart = true;
+    [SerializeField]
+    private float _fadeInSpeed = 0.7f;
 
     void Awake()
     {
@@ -21,9 +22,9 @@ public class SetDissolveValue : MonoBehaviour
         }
     }
 
-    public void FadeIn(float fadeDuration)
+    public void FadeIn()
     {
-            StartCoroutine(FadeInRoutine(fadeDuration));
+            StartCoroutine(FadeInRoutine(_fadeInSpeed));
     }
 
     private IEnumerator FadeInRoutine(float fadeDuration)
