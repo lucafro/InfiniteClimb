@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1066772585045763441
 Transform:
   m_ObjectHideFlags: 0
@@ -217,6 +217,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3418157897756192237}
+  - component: {fileID: 8394287133912535724}
+  - component: {fileID: 7298875407396229511}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -240,6 +242,61 @@ Transform:
   - {fileID: 1066772585045763441}
   m_Father: {fileID: 6557717877999596602}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8394287133912535724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2169077927288430374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070aac6b7ab0b3e4798a9aa6a8ff6708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - {fileID: 100000, guid: 79bce83937e43d042843a359e671ca99, type: 3}
+  - {fileID: 181199878741392824, guid: afbe151a127611c4ca98a69a46d11455, type: 3}
+  - {fileID: 100000, guid: 3da8c6e2c0ecd1d4492b3612b97222db, type: 3}
+  - {fileID: 100000, guid: e349b6a927183154d9bf449b09b8e413, type: 3}
+  - {fileID: 100000, guid: 7ca168569b7f1c5479b28f521d0a1a32, type: 3}
+--- !u!114 &7298875407396229511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2169077927288430374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e12adf884fa5ff458c48effdfdd1d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enabled:
+    m_PersistentCalls:
+      m_Calls: []
+  Awoke:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8394287133912535724}
+        m_TargetAssemblyTypeName: lucafro.framework.Runtime.Utilities.Instantiator,
+          lucafro.framework.Runtime.Utilities
+        m_MethodName: InstantiateRandomPrefab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Started:
+    m_PersistentCalls:
+      m_Calls: []
+  Disabled:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3420698003422817471
 GameObject:
   m_ObjectHideFlags: 0
