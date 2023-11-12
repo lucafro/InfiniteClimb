@@ -474,6 +474,7 @@ GameObject:
   - component: {fileID: 6272535143210111106}
   - component: {fileID: 2584013674165095368}
   - component: {fileID: 1632357631497221765}
+  - component: {fileID: -8525734084350171001}
   m_Layer: 0
   m_Name: Handle (Climbable)
   m_TagString: Untagged
@@ -698,8 +699,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -6344887744396583006, guid: 3bbd231560064ae4796e648ce7af10cc,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 17b1028d2cff8044cb0f0a149e2dd796, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -708,7 +709,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.1
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -796,3 +797,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f8bf44189085fa4285102143f1f7fd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-8525734084350171001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6895505816110581931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2805f5555ec5e1c48b16df034f1c6951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClips: []
+  _minTimeInterval: 5
+  _maxTimeInterval: 20
