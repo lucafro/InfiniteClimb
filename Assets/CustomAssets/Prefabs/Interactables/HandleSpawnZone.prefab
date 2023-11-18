@@ -54,11 +54,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.25, y: 0.5, z: 2}
-  m_Center: {x: 0, y: 0, z: -0.5}
+  m_Size: {x: 1.7, y: 0.1, z: 3}
+  m_Center: {x: 0, y: 0, z: -1}
 --- !u!54 &2211873527934466658
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -137,8 +137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   planeHeight: 0
-  spawnWidth: 1.3
-  spawnHeight: 0.25
+  spawnWidth: 1.2
+  spawnHeight: 0.5
   planeAxis: 1
   TransformCreated:
     m_PersistentCalls:
