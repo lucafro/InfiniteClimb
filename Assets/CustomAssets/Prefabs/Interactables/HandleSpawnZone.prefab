@@ -55,8 +55,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3, y: 0.5, z: 2}
-  m_Center: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 2.25, y: 0.5, z: 2}
+  m_Center: {x: 0, y: 0, z: -0.5}
 --- !u!54 &2211873527934466658
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -145,7 +145,7 @@ MonoBehaviour:
       - m_Target: {fileID: 4285616966031882651}
         m_TargetAssemblyTypeName: lucafro.framework.Runtime.Utilities.Instantiator,
           lucafro.framework.Runtime.Utilities
-        m_MethodName: InstantiateRandomPrefab
+        m_MethodName: InstantiateRandomPrefabAtTransform
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
