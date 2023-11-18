@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3782489551092721270}
   - component: {fileID: 1352244568017736463}
   - component: {fileID: 4285616966031882651}
+  - component: {fileID: 2675785409638784363}
   m_Layer: 0
   m_Name: HandleSpawnZone
   m_TagString: Untagged
@@ -212,3 +213,15 @@ MonoBehaviour:
   - {fileID: 4835182765391350811, guid: e7ce0a682b7b6bb4c86388434069c952, type: 3}
   - {fileID: 7446793062276451141, guid: cc6d5e88a81624149ab6e941ad9a7abb, type: 3}
   - {fileID: 8711348273734165727, guid: bc43d01ae3c3d734783e65648de170af, type: 3}
+--- !u!114 &2675785409638784363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5720865055035570549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f77c270f17fae648a0f3a3460ffe692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
