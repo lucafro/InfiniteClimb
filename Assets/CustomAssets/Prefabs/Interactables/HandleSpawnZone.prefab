@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1352244568017736463}
   - component: {fileID: 4285616966031882651}
   - component: {fileID: 2675785409638784363}
+  - component: {fileID: 2079153293242780459}
   m_Layer: 0
   m_Name: HandleSpawnZone
   m_TagString: Untagged
@@ -97,8 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afc03c5001eac8143b14f4817643dea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _acceptedObjects:
-  - {fileID: 0}
+  _acceptedObjects: []
   _onlyTriggerOnce: 1
   TriggerEntered:
     m_PersistentCalls:
@@ -146,7 +146,7 @@ MonoBehaviour:
       - m_Target: {fileID: 4285616966031882651}
         m_TargetAssemblyTypeName: lucafro.framework.Runtime.Utilities.Instantiator,
           lucafro.framework.Runtime.Utilities
-        m_MethodName: InstantiateRandomPrefabAtTransform
+        m_MethodName: InstantiateRandomPrefab
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -225,3 +225,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f77c270f17fae648a0f3a3460ffe692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2079153293242780459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5720865055035570549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82ba4f203e91884aa941dc8cd003d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameObjectReference: {fileID: 11400000, guid: a1f7779a37be8f047be07ca6fc6fd6a0,
+    type: 2}
+  Started:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3782489551092721270}
+        m_TargetAssemblyTypeName: lucafro.framework.Runtime.Utilities.CollisionToEvent,
+          lucafro.framework.Runtime.Utilities
+        m_MethodName: AddAcceptedObject
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
