@@ -16,7 +16,7 @@
       "dependencies": {
         "com.domybest.mybox": "1.8.0"
       },
-      "hash": "988aacba901fe6274c93f3bdd8699f934a50ed94"
+      "hash": "fe463929cc9eb283ab541247e3073d93ee020af1"
     },
     "com.unity.burst": {
       "version": "1.8.7",

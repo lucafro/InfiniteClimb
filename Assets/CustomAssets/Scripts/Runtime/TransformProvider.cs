@@ -112,7 +112,8 @@ public class TransformProvider : MonoBehaviour
 
         TransformCreated?.Invoke(newObject.transform);
         // Return the Transform component of the new GameObject
-        StartCoroutine(WaitAndRemoveTransform(newObject));
+        if (gameObject.activeInHierarchy)
+            StartCoroutine(WaitAndRemoveTransform(newObject));
         return newObject.transform;
     }
 

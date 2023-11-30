@@ -78,16 +78,16 @@ public class SpawnZonesCreator : MonoBehaviour
         {
             case PlaneAxis.XY:
                 sizeX = _spawnWidth;
-                sizeY = 0.1f;
+                sizeY = 0.0001f;
                 sizeZ = _spawnHeight;
                 break;
             case PlaneAxis.XZ:
                 sizeX = _spawnWidth;
                 sizeY = _spawnHeight;
-                sizeZ = 0.1f;
+                sizeZ = 0.0001f;
                 break;
             case PlaneAxis.YZ:
-                sizeX = 0.1f;
+                sizeX = 0.0001f;
                 sizeY = _spawnHeight;
                 sizeZ = _spawnWidth;
                 break;
