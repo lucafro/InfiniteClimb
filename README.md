@@ -12,9 +12,10 @@ There are sounds for the rocks appearing and also some abience + a self-composed
 
 # Prerequisites
 ## Unity version
-This project uses Unity 2022.3.5f1
+This project uses Unity 2022.3.5f1.
 ## VR Headset
-This is a VR project so a HMD is required. I have tested this project with the Meta Quest 2 and Meta Quest 3
+This is a VR project so a HMD is required. I have tested this project with the Meta Quest 2 and Meta Quest 3.
+The XR Toolkit (OpenXR) is used so other headsets should work aswell. Just make sure you add your specific Interaction Profile to the XR settings.
 
 # Limitations
 ## Build
