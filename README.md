@@ -6,7 +6,7 @@ The rocks act as climb handles and appear based on spawn zones.
 ## Spawn Zone Feature
 Spawn zones for the rock climb handles can dynamically be created in the editor using a spawn zone feature.
 You can configure the amount, horizontal and vertical placement deviation and other things.
-## Sounds
+## Music and Sounds
 There are sounds for the rocks appearing and also some abience + a self-composed music theme is incorporated.
 
 # Prerequisites
