@@ -1,7 +1,6 @@
 # What is this?
 A Unity project configured for VR in which you can climb up rocks that appear above you along a wall.
 The rocks act as climb handles and appear based on spawn zones.
-It's fun to do for a while and it was fun to develop but I quickly realized that constantly looking up put quite a lot of strain on my neck, which is not fun at all.
 
 # Features
 ## Spawn Zone Feature
